@@ -16,11 +16,13 @@ After the data was put through an ETL pipeline, Google Colab was used to turn it
 
 
 ### Paid Reviews
+
 - There were 82 reviews which WERE a part of the Vine program.
 -  This included 33 5-Stars reviews.
 -  40.24% of the total were 5-Stars reviews.
 
 ### Unpaid Reviews
+
 - There were 24742 reviews which were NOT a part of the Vine program. 
 - This included 12807 5-Stars reviews
 - 51.76% of the total were 5-Stars reviews.
@@ -29,7 +31,10 @@ After the data was put through an ETL pipeline, Google Colab was used to turn it
 
 Although there is a difference of 11.5% of 5-star ratings between regular and vine reviews, it is worth noting that Vine reviews only account for .03% of total reviews. The sample size being this much smaller may have skewed the results for the paid reviews ratings. 
 
+It seems, as far as this analysis is concerned, that Vine reviewers tend to give less 5-star ratings than unpaid reviewers.
+
 Further analysis is needed to get a better grasp of whether or not the Vine program causes a rating bias. Options include the following:
+
 - Test all categories rather than only the automotive reviews.
 - Check for bias among all other ratings as well rather than only 5-star reviews.
 - Look at differences between the amount of Vine reviews across categories.
